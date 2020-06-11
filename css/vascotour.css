@@ -47,7 +47,7 @@ select.form-control {
 }
 
 .text-muted {
-  color: #868e96!important;
+  color: #606569!important;
   font-size: 1.2em;
 }
 .text-primary {
@@ -679,7 +679,7 @@ section#contact .form-control:focus {
 }
 
 .form-control{
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(90, 90, 90, 0.54);
 }
 
 section#contact ::-webkit-input-placeholder {
@@ -723,6 +723,7 @@ footer .container:first-child{
   background-color: #143a0a42;
   width: 100%;
   padding: 19px 8%;
+  overflow: hidden;
 }
 
 .footer .container .row:first-child{
@@ -736,10 +737,8 @@ footer .container:first-child{
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 10px;
-}
-
-.col-md-4.datos-contacto-footer {
-    padding-left: 10%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .datos-contacto-footer ul{
@@ -751,7 +750,7 @@ footer .container:first-child{
 }
 
 .datos-contacto-footer li{
-  text-align: left;
+  text-align: center;
   list-style: none;
   margin-bottom: 5px;
   padding: 0;
@@ -762,10 +761,6 @@ footer .container:first-child{
 .datos-contacto-footer i{
   margin-right: 5px;
   font-size: 1.5em;
-}
-
-.datos-contacto-footer#datos-habilitacion ul{
-  margin-top: 40px;
 }
 
 .datos-contacto-footer#datos-habilitacion li{
@@ -1289,7 +1284,12 @@ a.section-btn-sm{
   padding: 11px 14px;
   transition: transform 0.1s ease-in;
   transform: translateX(0);
-  box-shadow: 2px 2px 2px -1px;
+  box-shadow: 1px -1px 4px 0px;
+}
+
+select.form-control option {
+    background-color: #000;
+    padding: 10px 0;
 }
 
 .section-btn-sm i{
@@ -1474,6 +1474,7 @@ div.horarios-card {
   margin-right: 5px;
   border-radius: 5px;
   float: left;
+  min-height: 130px;
 }
 
 .horarios-card-destacado{
@@ -1567,6 +1568,21 @@ section#combi{
   color: #5d5d5d;
   font-size: 20px;
   letter-spacing: 2px;
+}
+
+div#datos-habilitacion{
+  margin-top: -10px;
+}
+
+div#datos-habilitacion ul{
+  float: center;
+  margin-top: 0;
+}
+
+.data-fiscal img{
+  height: 66px;
+  margin: 10px auto;
+  max-width: 100%;
 }
 
 /*------------------------------
@@ -1703,6 +1719,14 @@ section#combi{
 }
 
 @media (max-width: 768px){
+  section.clients img {
+      padding: 0;
+      max-height: 40px;
+      margin-bottom: 24px;
+  }
+  div#datos-habilitacion {
+      margin-top: 10px;
+  }
   .mini-banner {
       height: auto;
       font-size: 12px;
@@ -1712,16 +1736,17 @@ section#combi{
   }
   section.clients {
       padding-top: 60px;
+      padding-bottom: 40px;
   }
   .redes-contacto p{
     border-top: 1px solid #ccc;
     padding-top: 20px;
-    text-align: left;
+    text-align: center;
     font-size: 1.3em;
     margin-top: 20px;
   }
   .redes-contacto ul{
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
   }
@@ -1814,9 +1839,6 @@ section#combi{
 }
 
 @media (max-width: 921px){
-  .col-md-4.datos-contacto-footer {
-      padding-left: 0;
-  }
   .bg-flota li {
       font-size: 1em;
       max-width: calc(95% / 3);
@@ -1833,17 +1855,36 @@ section#combi{
 }
 
 @media (max-width: 1024px){
-  .datos-contacto-footer#datos-habilitacion ul {
-      margin-top: 20px;
+  section.clients img {
+      margin-bottom: 24px;
+  }
+  .header-redes i {
+      font-size: 1.2em;
   }
   ul.social-buttons li a {
       height: 33px;
       width: 33px;
       line-height: 36px;
   }
+  .logo{
+    width: 170px;
+  }
+  .navbar-custom .nav li a{
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 1280px){
+  footer .container:first-child {
+      padding: 19px 0%;
+  }
+  .data-fiscal img{
+    height: 50px;
+  }
   .logo-footer{height: 43px}
   .datos-contacto-footer#datos-habilitacion li {
       font-size: 0.7em;
+      line-height: 0;
   }
   .datos-contacto-footer li {
       font-size: 0.9em;
@@ -1851,17 +1892,8 @@ section#combi{
   nav#mainNav .container {
       width: 100%;
   }
-  .logo{
-    width: 170px;
-  }
-  .navbar-custom .nav li a{
-    font-size: 0.9em;
-  }
-}
-
-@media (max-width: 1280px){
-  .col-md-4.datos-contacto-footer {
-      padding-left: 3%;
+  .navbar-header.page-scroll {
+      padding-left: 15px;
   }
 }
 
