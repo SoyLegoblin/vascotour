@@ -1,0 +1,1980 @@
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body.index {
+  overflow-x: hidden;
+  font-family: "PT Sans", sans-serif;
+}
+
+body.index::-webkit-scrollbar-thumb {
+    display: block;
+    background-color:#60B140;
+    width: 100px;
+    border-radius: 12px;
+}
+
+body.index::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+}
+
+select.form-control {
+  color: #eeeeee;
+  font-family: 'arial';
+  font-weight: bold;
+  height: 60px;
+}
+
+.modal-open .modal {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.mini-banner{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 80px;
+  background-color: #f3e75b;
+  color: #292929;
+  z-index: 100;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.text-muted {
+  color: #868e96!important;
+  font-size: 1.2em;
+}
+.text-primary {
+  color: #69b54a;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: #69b54a;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #69b54a;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.h4, h4 {
+    font-size: 2.5rem;
+}
+.img-centered {
+  margin: 0 auto;
+}
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+.bg-darkest-gray {
+  background-color: #222222;
+}
+
+.btn{
+  color: white;
+  border-color: #65b345;
+  background-color: #65b345;
+}
+
+.btn a, .btn a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #69b54a;
+  border-color: #69b54a;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #69b54a;
+  border-color: #f6bf01;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #69b54a;
+  border-color: #69b54a;
+}
+.btn-primary .badge {
+  color: #69b54a;
+  background-color: white;
+}
+.btn-xl {
+  color: white;
+  background-color: #69b54a;
+  border-color: #69b54a;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #69b54a;
+  border-color: #f6bf01;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+  background-color: #69b54a;
+  border-color: #69b54a;
+}
+.btn-xl .badge {
+  color: #69b54a;
+  background-color: white;
+}
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #69b54a;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #69b54a;
+}
+.navbar-custom .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02);
+    margin-top: 0px;
+    padding-left: 20px;
+}
+.navbar-custom .navbar-toggle {
+  background-color: #69b54a;
+  border-color: #69b54a;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #69b54a;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #69b54a;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+    color: #69b44a;
+    background: none;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #69b44a;
+  background: none;
+}
+
+section#servicios {
+    background-color: #eeeeee;
+}
+
+.banner{
+  width: 98%;
+  height: 230px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.parallax h1{
+  font-family: 'Comfortaa', Arial;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 4em;
+  }
+
+.banner h1{
+  font-family: 'Comfortaa', Arial;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -15px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 4em;
+}
+
+#charter-banner{
+  background-image: url(../img/charter-banner.jpg);
+  position: relative;
+  width: 100%;
+  border-radius: 0;
+  height: 40vh;
+  }
+
+#bus-banner{
+  background-image: url(../img/buses-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 95px;
+  margin-bottom: 0;
+  background-position: center center;
+  align-content: center;
+  position: relative;
+}
+
+.navbar-custom.menu-fijo{
+  background-color: #222222;
+  padding: 5px 0 0 0;
+}
+.navbar-custom.menu-fijo .navbar-brand {
+  font-size: 1.5em;
+}
+nav#mainNav .menu-fijo{
+  height: 53px;
+}
+
+.menu-fijo .logo {
+    height: 40px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.bg-home{
+  background-image: url('../img/bg-home-vasco.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  z-index: -10;
+  position: absolute;
+  width: 100%;
+  background-position: bottom;
+}
+
+.black{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+a.image-transp img{
+  opacity: 0.5;
+}
+
+a.portfolio-link img{
+  transition: all ease 0.5s;
+}
+
+a.portfolio-link img:hover {
+    margin-top: -7px;
+    transition: all ease 0.5s;
+}
+
+section#ver-mas h3{
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.charter section, .buses section{
+  padding: 80px 0 80px 0;
+}
+
+section {
+  padding: 80px 0;
+}
+
+section h2.section-heading {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Comfortaa', Arial;
+}
+
+section h3.section-subheading {
+  font-size: 18px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.icono-png-servicios{
+  position: absolute;
+  right: 13px;
+  width: 81%;
+  top: 26px;
+}
+
+.service-heading{
+  font-family: 'Comfortaa', Arial;
+}
+
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(95, 177, 65, 0.74);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+  color: #878f97;
+}
+#portfolio * {
+  z-index: 2;
+}
+
+section#portfolio{
+  background-image: url(../img/bg_trama_bus_neg.png);
+  background-color: #ccc;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #f1f1f1;
+  left: 40px;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+  min-height: 50px;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
+}
+.timeline > li .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+  background-color: #69b54a;
+  color: white;
+  border-radius: 100%;
+  border: 7px solid #f1f1f1;
+  text-align: center;
+}
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
+  margin-bottom: 0;
+}
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px;
+  }
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+  width: 225px;
+  height: 225px;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
+aside.clients img {
+  margin: 50px auto;
+}
+section#contact {
+  background-color: #222222;
+  background-image: url("../img/bg-vasco-contacto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: #69b54a;
+  box-shadow: none;
+}
+
+.form-control{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+footer {
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #779e68;
+    background-image: url(../img/asfalt-light.png);
+    border-top: 3px solid #eae0c6;
+}
+
+footer .container:first-child{
+  background-color: #143a0a42;
+  width: 100%;
+  padding: 19px 8%;
+}
+
+.footer .container .row:first-child{
+  padding: 0 20px;
+}
+
+.logo-footer{
+  background-image: url(../img/logo.png);
+  width: 200px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.col-md-4.datos-contacto-footer {
+    padding-left: 10%;
+}
+
+.datos-contacto-footer ul{
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+      padding-inline-start: 0;
+}
+
+.datos-contacto-footer li{
+  text-align: left;
+  list-style: none;
+  margin-bottom: 5px;
+  padding: 0;
+  color: #e9ddc3;
+  font-size: 1.1em;
+}
+
+.datos-contacto-footer i{
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+.datos-contacto-footer#datos-habilitacion ul{
+  margin-top: 40px;
+}
+
+.datos-contacto-footer#datos-habilitacion li{
+  font-size: 0.8em;
+}
+
+footer a,
+footer a:hover{
+  color: white;
+}
+
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222c7;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ebdfc5;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #69b54a;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  text-align: justify;
+}
+.modal-body li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.modal-content{
+  background-color: #ffffffe3;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #69b54a;
+}
+::selection {
+  text-shadow: none;
+  background: #69b54a;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #69b54a;
+}
+
+/* nav bar */
+.logo{
+  background-image: url(../img/logo.png);
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+}
+
+.affix .logo{
+  height: 40px;
+}
+
+
+
+/* servicios */
+#servicios .col-md-4 {
+    background-color: #eae0c6;
+    padding: 15px 20px 30px 20px;
+    margin-bottom: 5px;
+    border-right: 5px solid #eee;
+}
+
+#servicios .box-01{
+  background-image: url(../img/bg-servicios.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+#servicios .box-02-05{
+  background-image: url(../img/bg-servicios-02-05.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+#servicios .box-03{
+  background-image: url(../img/bg-servicios-03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+#servicios .box-04{
+  background-image: url(../img/bg-servicios-04.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+#servicios .box-06{
+  background-image: url(../img/bg-servicios-06.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+
+#servicios .row.servicios{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/********/
+.btn-group-sm>.btn, .btn-sm {
+    font-size: 1.5rem;
+}
+
+nav#mainNav {
+    height: 53px;
+}
+
+.rse-destacado{
+  background-color: #63b445;
+  padding: 20px 30px;
+  text-align: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: white;
+  border: 6px solid #f1f1f1;
+}
+
+.txt-destacado{
+  border-left:3px solid #63b445;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.banner-institucional{
+  background-image: url(../img/40-trayectoria.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 300px;
+  width: 100%;
+}
+
+.banner-institucional-small{
+  background-image: url(../img/40-trayectoria-small.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 250px;
+  width: 100%;
+}
+
+#contact input,
+#contact textarea{
+  color: white;
+}
+
+/* bg colores */
+
+.contain-verde{
+  background-color: #5fb141;
+  color: white;
+  padding: 20px 10px;
+  border-top: 3px solid #eae0c6;
+  border-bottom: 3px solid #eae0c6;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 1.4em;
+  margin-top: 40px;
+}
+
+.contain-verde table{
+  line-height: 1.7em;
+}
+
+/* front colores */
+.verde{
+  color: #69b54a;
+}
+
+/* flota */
+.bus-principal{
+  background-image: url(../img/bus-principal.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  background-position: right;
+}
+
+.contain-verde i{
+  color: #f9d045;
+  font-size: 2rem;
+}
+
+.descripcion-vehiculo{
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+  padding-left: 30px;
+  border-right: 1px solid;
+  padding-right: 30px;
+  max-width: 502px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 200px;
+}
+
+section.flota{
+  margin-top: 70px;
+}
+
+.flota table{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flota .tipo-vehiculo{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f9d045;
+}
+
+.flota .caracteristicas{
+  color: #5fb141;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.first-section{
+  margin-top: 60px;
+}
+
+.equipamiento-flota{
+  margin-bottom: 30px;
+}
+
+.equipamiento-flota ul{
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+  }
+
+.bg-flota li {
+    display: inline-flex;
+    margin-right: 20px;
+    font-size: 1.2em;
+    padding: 6px 10px;
+    border-radius: 5px;
+    width: calc(90% / 3);
+    background-color: #ffffff6b;
+    margin-bottom: 4px;
+    text-align: left;
+    color: #696969;
+}
+
+.bg-flota i{
+  margin-right: 12px;
+  font-size: 1.3em;
+  width: 30px;
+  border-right: 1px solid #aaa;
+  margin-left: 5px;
+}
+
+/* iconos fon fotos */
+.combi-icon{
+  background-image: url('../img/combi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.descripcion-servicios{
+  float: left;
+  font-size: 2rem;
+}
+
+/* #galería */
+section#galeria{
+  background-color: #eeeeee;
+}
+
+.galeria-img img{
+  vertical-align: middle;
+  border: 5px solid white;
+  margin-right: 5px;
+  margin-bottom: 9px;
+  margin-left: auto;
+  width: calc(100% / 3 - 8px);
+}
+
+.galeria-img{
+  margin-top: 20px;
+}
+
+/** SLIDER **/
+
+.caption {
+    padding-top: 12vh;
+}
+
+.caption h1{
+  text-shadow: #000 5px 5px 10px;
+}
+
+.slider .item-first {
+      background-image: url(../img/slider2.jpg);
+  }
+
+.slider .item-second {
+    background-image: url(../img/slider1.jpg);
+}
+
+.slider .item-third {
+    background-image: url(../img/slider3.jpg);
+}
+
+.slider .item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 60vh;
+}
+
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+/*
+ *  Owl Carousel - Core
+ */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1;
+}
+
+.text-green{
+  color: #4DA940;
+  font-weight: bold;
+}
+
+.slider .owl-dots {
+    position: absolute;
+    top: 63vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.owl-carousel.owl-loaded {
+  display: block;
+  border-bottom: 10px solid #60b140;}
+
+  .owl-carousel.owl-loading {
+  opacity: 0;
+  display: block; }
+
+  .owl-carousel.owl-hidden {
+  opacity: 0; }
+
+  .owl-carousel.owl-grab {
+  cursor: move;
+  cursor: grab; }
+
+  .owl-carousel.owl-rtl {
+  direction: rtl; }
+  /* No Js */
+.no-js .owl-carousel {
+  display: block; }
+
+.section-btn {
+    background: #60b140;
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: inherit;
+    font-weight: 500;
+    padding: 14px 20px;
+    transition: transform 0.1s ease-in;
+    transform: translateX(0);
+  }
+
+
+a.section-btn-sm{
+  font-weight: bold;
+  white-space: normal;
+}
+
+.section-btn-sm{
+  background: #ebdfc5;
+  border: 0;
+  border-radius: 3px;
+  color: #cc8241;
+  font-size: inherit;
+  font-weight: 500;
+  padding: 11px 14px;
+  transition: transform 0.1s ease-in;
+  transform: translateX(0);
+  box-shadow: 2px 2px 2px -1px;
+}
+
+.section-btn-sm i{
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.slider .container{
+  width: 100%;
+}
+
+nav#mainNav {
+    height: 80px;
+    background-color: #222;
+    padding-top: 14px;
+}
+
+.slider .caption {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(20,20,20,0.2);
+    height: 100%;
+    color: #fff;
+    cursor: e-resize;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background-color: #60b140;
+}
+
+section#home {
+    padding-bottom: 0;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -60px;
+}
+
+.caption h3{
+  font-size: 2.3em;
+}
+
+.caption a{
+  font-size: 1.3em;
+  margin-top: 10px;
+}
+
+.navbar-header.page-scroll.out {
+    margin-top: 10px;
+}
+
+.navbar-header.page-scroll {
+    margin-top: 0;
+}
+
+.section-out{
+  margin-top: 50px;
+}
+
+.section-out h1{
+  text-align: center;
+}
+
+.brand-color{
+  color: #56a838 !important;
+}
+
+.charter .horarios i{
+  color: #56a838;
+}
+
+/* fin carrousel */
+
+
+.navbar-right {
+    float: left !important;
+    margin-left: 20px;
+}
+
+ul.header-redes {
+  float: right;
+}
+
+.header-redes li{
+  display: inline;
+  margin-right: 10px;
+}
+
+.header-redes i{
+  font-size: 1.5em;
+  color: #ebdfc5;
+  margin-top: 16px;
+
+}
+
+.txt-destacado{
+  border-left:3px solid #63b445;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+#servicios .row.servicios{
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+#servicios h2.section-heading{
+  margin-bottom: 30px;
+}
+
+/* Horarios */
+
+.horarios table{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #fdf8ee
+}
+
+.horarios table, .horarios tr td{
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 1.1em;
+}
+
+.horarios-card td {
+  width: calc(100% / 7);
+  padding: 5px;
+}
+
+tr.title-location{
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
+tr.title-horarios {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.horarios-card h1{
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 10px;
+  font-weight: normal;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+.horarios-card h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 10px;
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+div.horarios-card {
+  padding: 0;
+  border-radius: 10px;
+  background-color: #699258;
+  border: 3px solid #588c43;
+  box-shadow: 4px 4px 7px #56565647;
+  min-width: 611px;
+  position: relative;
+  }
+
+.horarios-card table{
+  background-color: white;
+  width: 77%;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  float: left;
+}
+
+.horarios-card-destacado{
+  display: table;
+  float: left;
+  width: 17%;
+  height: 70px;
+  background-color: #e2b717;
+  border-radius: 5px;
+  margin-left: 9px;
+  min-height: 84px;
+  padding: 10px;
+}
+
+.horarios-card-destacado h1{
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.horarios-card-destacado p{
+  text-align: center;
+  color: white;
+  margin:0;
+  line-height: 1.3em;
+}
+
+.contenedor-card{
+  float: left; 
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.charter div#accordion {
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+tr.title-location td {
+    border-bottom: 3px solid #aaa;
+}
+
+.title-horarios td {
+    border-right: 1px solid #aaaaaa8c;
+}
+
+.show-mobile{
+  display: none;
+}
+
+.hide-mobile{
+  display: block;
+}
+section.clients {
+    border-top: 10px solid #ebdfc5;
+}
+
+section#bus{
+  width: 100%;
+  height: auto;
+  background-image: url(../img/bg-buses-info.jpg);
+}
+
+section#minibus{
+  width: 100%;
+  height: auto;
+  background-image: url(../img/minibus-banner.jpg);
+}
+
+section#combi{
+  width: 100%;
+  height: auto;
+  background-image: url(../img/combi-banner.jpg);
+}
+
+.contain-verde td{
+  width: 76%;
+}
+
+/* #parallax */
+.parallax, .banner{
+  background:no-repeat 50% 50% fixed;
+  background-size: cover;
+}
+
+.horarios-card h3{
+  text-align: center;
+  background-color: #d4d3ad;
+  margin-top: 0;
+  padding: 6px 0;
+  color: #5d5d5d;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/*------------------------------
+#MEDIA QUERIES
+--------------------------------*/
+
+/* MAX */
+
+@media (max-width: 500px){
+  .mini-banner {
+      height: auto;
+      font-size: 10px;
+  }
+  section#combi, section#minibus, section#bus{
+    padding: 35px 0 35px 0;
+  }
+  .copyright-footer{
+    padding: 15px 0;
+  }
+  .horarios-card h3 {
+      text-align: left;
+      padding-left: 10px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      font-size: 18px;
+  }
+  .buses .portfolio-caption, .mini-bus .portfolio-caption, .combi .portfolio-caption {
+    margin-bottom: 30px;
+}
+  section#ver-mas h3 {
+      margin-top: 30px;
+  }
+  .parallax h1 {
+      font-size: 2em;
+      margin-top: 35px;
+      margin-bottom: 20px;
+  }
+  .header-redes li{
+    display: table;
+    margin-right: 10px;
+  }
+  .bg-flota i{
+    margin-right: 13px;
+    font-size: 1.3em;
+    width: 23px;
+    border-right: 1px solid;
+    margin-left: 5px;
+}
+  .bg-flota li {
+      font-size: 1em;
+      min-width: 228px;
+  }
+  h2.service-heading {
+      font-size: 1.6em;
+  }
+  .h3, h3 {
+      font-size: 18px;
+  }
+  .text-muted{
+    font-size: 1em;
+  }
+  section#institucional {
+      padding-top: 0;
+  }
+  section#home {
+      padding-top: 80px;
+  }
+  section {
+      padding: 30px 0;
+  }
+  .owl-theme .owl-nav.disabled+.owl-dots {
+      margin-top: -50px;
+  }
+  .caption{
+    padding-top: 13vh;
+  }
+  .caption a{
+    font-size:1em;
+  }
+  .caption h1{
+    font-size: 2em;
+  }
+  .caption h3 {
+    font-size: 1.3em;
+  }
+  .caption h3 {
+      font-size: 1.3em;
+  }
+  .section-btn{
+    padding: 10px 15px;
+  }
+  .text-green {
+      margin-top: 15px;
+  }
+  p {
+      font-size: 1.3rem;
+      line-height: 1.5;
+  }
+  .h1, h1 {
+      font-size: 26px;
+      text-align: center;
+  }
+  section h2.section-heading{
+    font-size: 2rem;
+    margin-top: 1.5em;
+  }
+  .contenedor-card{
+    width: 602px;
+  }
+  .horarios-card h1, .horarios-card h2 {
+    text-align: left;
+  }
+  .horarios-card-destacado{
+    margin-top: 10px;
+  }
+  .horarios-card-destacado h1{
+    text-align: center;
+  }
+  .banner{
+    height: 130px;
+  }
+  .banner h1{
+    font-size: 3em;
+  }
+  .charter section, .buses section {
+      padding: 0 0 20px 0;
+  }
+  .charter div#accordion {
+      margin-left: 5px;
+  }
+  div.horarios-card{
+    padding: 0 7px;
+  }
+}
+
+@media (max-width: 768px){
+  .mini-banner {
+      height: auto;
+      font-size: 12px;
+  }
+  .footer span.copyright {
+      line-height: 0.7em;
+  }
+  section.clients {
+      padding-top: 60px;
+  }
+  .redes-contacto p{
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: 20px;
+  }
+  .redes-contacto ul{
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  .redes-contacto li{
+    text-align: center;
+  }
+  .descripcion-vehiculo{
+    max-width: 333px;
+  }
+  .contain-verde table {
+  font-size: 0.7em;
+  }
+  .contain-verde td{
+    width: 72%;
+  }
+  .galeria-img img {
+    width: calc(100% / 2 - 5px);
+    margin-right: auto;
+  }
+  .bg-flota li {
+      font-size: 1em;
+      margin-right: 0;
+      width: 50%;
+      max-width: none !important;      
+  }
+  .bg-flota i{
+    font-size: 1em;
+    }
+  .timeline > li {
+      margin-bottom: 30px;
+  }
+  section h3.section-subheading{
+    margin-bottom: 20px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+      padding: 0 0 0 50px;
+  }
+  .timeline > li .timeline-image {
+      margin-bottom: 20px;
+      left: 0;
+      margin-left: 0;
+      position: relative;
+  }
+  .timeline > li .timeline-panel {
+      width: 100%;
+      padding: 0 0 0 50px;
+      text-align: left;
+  }
+  div.horarios-card{
+    overflow: scroll;
+  }
+  .show-mobile{
+    display: block;
+  }
+  .hide-mobile{
+    display: none;
+  }
+  .title-location {
+      text-transform: uppercase;
+      font-size: 0.5em;
+  }
+  tr.title-horarios {
+    font-size: 1.5em;
+  }
+  .horarios-card-destacado p{
+    font-size: 1em;
+  }
+  .horarios-card h1{
+    font-size: 2em
+  }
+  .horarios-card h2{
+    font-size: 1.3em;
+  }
+  .logo {
+    height: 40px !important;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .navbar-right {
+      font-size: 1.3rem !important;
+    }
+  .navbar-nav>li>a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    line-height: 20px !important;
+  }
+  .navbar-custom .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media (max-width: 921px){
+  .col-md-4.datos-contacto-footer {
+      padding-left: 0;
+  }
+  .bg-flota li {
+      font-size: 1em;
+      max-width: calc(95% / 3);
+  }
+  .bg-flota i{
+    font-size: 1em;
+    }
+.navbar-right {
+    font-size: 1.4vw;
+  }
+  .nav>li>a {
+      padding: 20px 7px;
+  }
+}
+
+@media (max-width: 1024px){
+  .datos-contacto-footer#datos-habilitacion ul {
+      margin-top: 20px;
+  }
+  ul.social-buttons li a {
+      height: 33px;
+      width: 33px;
+      line-height: 36px;
+  }
+  .logo-footer{height: 43px}
+  .datos-contacto-footer#datos-habilitacion li {
+      font-size: 0.7em;
+  }
+  .datos-contacto-footer li {
+      font-size: 0.9em;
+  }
+  nav#mainNav .container {
+      width: 100%;
+  }
+  .logo{
+    width: 170px;
+  }
+  .navbar-custom .nav li a{
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1280px){
+  .col-md-4.datos-contacto-footer {
+      padding-left: 3%;
+  }
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  .timeline:before {
+    left: 50%;
+    }
+  section {
+    padding: 80px 0;
+  }
+  header .intro-text {
+    padding-top: 30vh;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 5px 0 0 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+
+@media (min-width: 1400px){
+  form#contactForm {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
