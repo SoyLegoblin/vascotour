@@ -68,7 +68,8 @@ a.active {
   outline: none;
 }
 a {
-  color: #69b54a;
+  color: #41a01a;
+  text-decoration: underline;
 }
 a:hover,
 a:focus,
