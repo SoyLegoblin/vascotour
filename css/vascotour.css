@@ -27,6 +27,10 @@ select.form-control {
   height: 60px;
 }
 
+nav#mainNav a {
+    text-decoration: none;
+}
+
 .modal-open .modal {
     padding-right: 15px;
     padding-left: 15px;
