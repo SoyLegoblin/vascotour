@@ -42,6 +42,7 @@ $email_body = "Información del contacto:\n\nNombre: $name\n\nEmail: $email_addr
 try {
    //Server settings
    $mail->isSMTP();                                            // Send using SMTP
+   $mail->CharSet    = 'UTF-8';
    $mail->Host       = 'dtcwin080.ferozo.com';                    // Set the SMTP server to send through
    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
    $mail->Username   = 'no-reply@vascotour.net';                     // SMTP username
