@@ -1494,6 +1494,11 @@ div.horarios-card {
   background-color: #e2b717;
 }
 
+#regreso .yellow{
+  border-radius: 5px 0 0 5px;
+  background-color: #e2b717;
+}
+
 .horarios-card-destacado h1{
   text-align: center;
   color: white;
