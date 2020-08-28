@@ -1436,7 +1436,7 @@ tr.title-location{
 
 tr.title-horarios {
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1.9em;
 }
 
 .horarios-card h1{
@@ -1473,7 +1473,6 @@ div.horarios-card {
 
 .horarios-card table{
   background-color: white;
-  width: 77%;
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
@@ -1482,16 +1481,17 @@ div.horarios-card {
   min-height: 130px;
 }
 
-.horarios-card-destacado{
-  display: table;
-  float: left;
-  width: 17%;
-  height: 70px;
+.title-horarios i.fa-arrow-up{
+  margin-right: 3px;
+  color: #699258;
+}
+.title-horarios i.fa-arrow-down{
+  color: #e2b716;
+  margin-left: 5px;
+}
+
+.yellow{
   background-color: #e2b717;
-  border-radius: 5px;
-  margin-left: 9px;
-  min-height: 84px;
-  padding: 10px;
 }
 
 .horarios-card-destacado h1{
