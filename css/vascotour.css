@@ -1231,6 +1231,13 @@ section#galeria{
 .text-green{
   color: #4DA940;
   font-weight: bold;
+  line-height: 1.5;
+}
+
+.btn-default:hover {
+    color: #699258;
+    background-color: #e8da77;
+    border-color: #adadad;
 }
 
 .slider .owl-dots {
@@ -1277,13 +1284,14 @@ section#galeria{
 a.section-btn-sm{
   font-weight: bold;
   white-space: normal;
+  text-decoration: none;
 }
 
 .section-btn-sm{
-  background: #ebdfc5;
+  background: #699258;
   border: 0;
   border-radius: 3px;
-  color: #cc8241;
+  color: #e8da77;
   font-size: inherit;
   font-weight: 500;
   padding: 11px 14px;
@@ -1481,6 +1489,26 @@ div.horarios-card {
   min-height: 130px;
 }
 
+#referencias i.fa-arrow-up{
+    color: #699258;
+}
+
+#referencias i.fa-arrow-down{
+  color: #e2b716;
+}
+
+div#referencias {
+    margin-top: 20px;
+    float: left;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
 .title-horarios i.fa-arrow-up{
   margin-right: 3px;
   color: #699258;
@@ -1572,10 +1600,10 @@ section#combi{
 
 .horarios-card h3{
   text-align: center;
-  background-color: #d4d3ad;
+  background-color: #e8da77;
   margin-top: 0;
   padding: 6px 0;
-  color: #5d5d5d;
+  color: #4b693e;
   font-size: 20px;
   letter-spacing: 2px;
 }
