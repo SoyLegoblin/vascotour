@@ -1489,6 +1489,10 @@ div.horarios-card {
   min-height: 130px;
 }
 
+.charter .col-lg-10.col-lg-offset-1{
+  padding-right: 0;
+}
+
 #referencias i.fa-arrow-up{
     color: #699258;
 }
